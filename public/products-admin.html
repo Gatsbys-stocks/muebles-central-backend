@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Productos — Muebles Central Admin</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="admin-top">
+    <div class="admin-brand">Muebles Central<small>Panel de administración</small></div>
+    <nav class="admin-nav">
+      <a href="admin.html">Pedidos</a>
+      <a href="products-admin.html" class="active">Productos</a>
+      <a href="settings-admin.html">Ajustes</a>
+    </nav>
+  </header>
+
+  <form class="login" id="loginForm">
+    <input id="adminKey" type="password" placeholder="Contraseña" autocomplete="current-password">
+    <button class="btn" type="submit">Entrar</button>
+  </form>
+  <div id="msg"></div>
+
+  <section class="panel" id="formPanel">
+    <h2 id="formTitle">Añadir producto</h2>
+    <form id="productForm">
+      <input type="hidden" id="editId">
+      <div class="grid2">
+        <label class="f"><span>Nombre</span><input id="fName" required placeholder="Ej: Sofá chaise longue tapizado"></label>
+        <label class="f"><span>Categoría</span><select id="fCat" required></select></label>
+        <label class="f"><span>Tipo</span><select id="fSub"></select></label>
+        <label class="f"><span>Medidas</span><input id="fDims" placeholder="Ej: 270 × 160 × 90 cm"></label>
+      </div>
+      <div class="grid2" style="margin-top:12px">
+        <label class="f"><span>Precio (€)</span><input id="fPrice" type="number" step="0.01" min="0" required></label>
+        <label class="f"><span>Precio anterior (€) · opcional</span><input id="fOldPrice" type="number" step="0.01" min="0" placeholder="Si está rebajado"></label>
+        <label class="f"><span>Colores / opciones</span><input id="fColors" placeholder="Gris, Beige, Topo"></label>
+        <label class="f"><span>Etiqueta</span>
+          <select id="fTag"><option value="">Ninguna</option><option>Nuevo</option><option>Oferta</option><option>A medida</option><option>Últimas unidades</option></select>
+        </label>
+      </div>
+      <label class="f" style="margin-top:12px"><span>Descripción</span><textarea id="fDesc" placeholder="Material, detalles, qué incluye…"></textarea></label>
+
+      <div class="grid2" style="margin-top:12px;align-items:end">
+        <label class="check"><input type="checkbox" id="fAssembly"> Ofrecer montaje en casa</label>
+        <label class="f"><span>Precio del montaje (€)</span><input id="fAssemblyPrice" type="number" step="0.01" min="0" value="0"></label>
+        <label class="check"><input type="checkbox" id="fFeatured"> Destacar en la portada</label>
+        <label class="check"><input type="checkbox" id="fStock" checked> En stock</label>
+      </div>
+      <p class="hint">Si quitas "En stock", el producto se sigue viendo en la web pero no se puede comprar.</p>
+
+      <div style="margin-top:14px">
+        <span style="font-size:13px;font-weight:500;color:var(--muted)">Fotos · la primera es la principal</span>
+        <div class="photos" id="photos"></div>
+        <input id="fImageFile" type="file" accept="image/*" multiple hidden>
+        <p class="hint" id="uploadStatus"></p>
+      </div>
+
+      <div class="actions">
+        <button class="btn" type="submit" id="saveBtn">Guardar producto</button>
+        <button class="btn secondary" type="button" id="cancelBtn" hidden>Cancelar edición</button>
+      </div>
+    </form>
+  </section>
+
+  <h2 style="font-size:18px">Catálogo (<span id="count">0</span> productos)</h2>
+  <div class="list-tools">
+    <input id="search" type="search" placeholder="Buscar por nombre…">
+    <select id="filterCat"><option value="">Todas las categorías</option></select>
+  </div>
+  <div id="productList" class="plist"></div>
+</div>
+<script src="js/common.js"></script>
+<script src="js/products-admin.js"></script>
+</body>
+</html>

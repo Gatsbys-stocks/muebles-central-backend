@@ -1,0 +1,411 @@
+[
+  {
+    "id": "p1",
+    "name": "Sofá chaise longue tapizado",
+    "cat": "sofas",
+    "sub": "Chaise longue",
+    "description": "Sofá de 3 plazas con chaise longue reversible. Tapizado en tela suave, cojines de respaldo desenfundables.",
+    "dims": "270 × 160 × 90 cm",
+    "tag": "Nuevo",
+    "price": 649,
+    "oldPrice": 749,
+    "colors": [
+      "Gris",
+      "Beige",
+      "Topo"
+    ],
+    "images": [
+      "img/tienda-1.jpg"
+    ],
+    "assembly": true,
+    "assemblyPrice": 40,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "p2",
+    "name": "Sofá cama 3 plazas",
+    "cat": "sofas",
+    "sub": "Sofás cama",
+    "description": "Se abre en un gesto y se convierte en cama de matrimonio. Ideal para pisos pequeños y visitas.",
+    "dims": "200 × 95 × 88 cm",
+    "tag": "Oferta",
+    "price": 459,
+    "oldPrice": null,
+    "colors": [
+      "Gris oscuro",
+      "Crema"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 30,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "p3",
+    "name": "Sofá 3 plazas con cojines",
+    "cat": "sofas",
+    "sub": "Sofás",
+    "description": "Sofá recto de 3 plazas con cojines decorativos incluidos.",
+    "dims": "210 × 90 × 85 cm",
+    "tag": "",
+    "price": 399,
+    "oldPrice": null,
+    "colors": [
+      "Gris",
+      "Mostaza",
+      "Verde"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 30,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p4",
+    "name": "Sofá rinconera en L",
+    "cat": "sofas",
+    "sub": "Rinconeras",
+    "description": "Rinconera amplia para salones grandes. Disponible con el rincón a derecha o izquierda.",
+    "dims": "290 × 220 × 88 cm",
+    "tag": "",
+    "price": 899,
+    "oldPrice": null,
+    "colors": [
+      "Gris",
+      "Beige"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 50,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "p5",
+    "name": "Colchón personalizado a medida",
+    "cat": "dormitorio",
+    "sub": "Colchones",
+    "description": "Te lo hacemos a la medida de tu cama y con la firmeza que prefieras. 3 años de garantía.",
+    "dims": "A medida",
+    "tag": "A medida",
+    "price": 299,
+    "oldPrice": null,
+    "colors": [
+      "Firmeza media",
+      "Firme",
+      "Extra firme"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "p6",
+    "name": "Cama con cabecero tapizado",
+    "cat": "dormitorio",
+    "sub": "Camas",
+    "description": "Cama con cabecero capitoné tapizado y somier de láminas.",
+    "dims": "150 × 190 cm",
+    "tag": "",
+    "price": 389,
+    "oldPrice": null,
+    "colors": [
+      "Gris",
+      "Blanco roto"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 35,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p7",
+    "name": "Tocador con espejo y luces",
+    "cat": "dormitorio",
+    "sub": "Tocadores",
+    "description": "Tocador con espejo de camerino, bombillas LED y cajones con separadores.",
+    "dims": "100 × 45 × 140 cm",
+    "tag": "Nuevo",
+    "price": 279,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Blanco y rosa"
+    ],
+    "images": [
+      "img/tienda-2.jpg"
+    ],
+    "assembly": true,
+    "assemblyPrice": 25,
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "p8",
+    "name": "Cómoda de 3 cajones",
+    "cat": "dormitorio",
+    "sub": "Cómodas / Cajoneras",
+    "description": "Cómoda con cajones de guías metálicas y tiradores dorados.",
+    "dims": "80 × 40 × 78 cm",
+    "tag": "Oferta",
+    "price": 189,
+    "oldPrice": 229,
+    "colors": [
+      "Blanco",
+      "Roble"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 20,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p9",
+    "name": "Mesita de noche 2 cajones",
+    "cat": "dormitorio",
+    "sub": "Mesitas de noche",
+    "description": "Mesita a juego con la cómoda.",
+    "dims": "45 × 35 × 55 cm",
+    "tag": "",
+    "price": 79,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Roble"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 10,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p10",
+    "name": "Armario de 2 puertas",
+    "cat": "almacenaje",
+    "sub": "Armarios",
+    "description": "Armario con barra para colgar y balda superior.",
+    "dims": "100 × 55 × 200 cm",
+    "tag": "",
+    "price": 329,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Roble"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 40,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p11",
+    "name": "Juego de 3 maletas",
+    "cat": "almacenaje",
+    "sub": "Maletas",
+    "description": "Maletas rígidas con ruedas giratorias y cierre de combinación.",
+    "dims": "S · M · L",
+    "tag": "Oferta",
+    "price": 99,
+    "oldPrice": 129,
+    "colors": [
+      "Rojo vino",
+      "Beige",
+      "Negro"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p12",
+    "name": "Espejo de pie",
+    "cat": "deco",
+    "sub": "Espejos",
+    "description": "Espejo de cuerpo entero con marco fino.",
+    "dims": "50 × 170 cm",
+    "tag": "",
+    "price": 119,
+    "oldPrice": null,
+    "colors": [
+      "Dorado",
+      "Negro"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p13",
+    "name": "Mueble de TV con estantes",
+    "cat": "salon",
+    "sub": "Muebles de TV",
+    "description": "Mueble bajo con dos puertas y hueco central.",
+    "dims": "180 × 40 × 50 cm",
+    "tag": "",
+    "price": 219,
+    "oldPrice": null,
+    "colors": [
+      "Blanco brillo",
+      "Roble"
+    ],
+    "images": [],
+    "assembly": true,
+    "assemblyPrice": 25,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p14",
+    "name": "Mesa de centro de mármol",
+    "cat": "salon",
+    "sub": "Mesas de centro",
+    "description": "Mesa de centro con tapa efecto mármol y patas doradas.",
+    "dims": "110 × 60 × 45 cm",
+    "tag": "",
+    "price": 169,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Negro"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p15",
+    "name": "Mesa de comedor extensible",
+    "cat": "comedor",
+    "sub": "Mesas",
+    "description": "Mesa extensible para 6 a 8 personas.",
+    "dims": "160-200 × 90 cm",
+    "tag": "",
+    "price": 349,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Roble"
+    ],
+    "images": [
+      "img/tienda-7.jpg"
+    ],
+    "assembly": true,
+    "assemblyPrice": 25,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p16",
+    "name": "Silla de comedor tapizada",
+    "cat": "comedor",
+    "sub": "Sillas",
+    "description": "Silla tapizada en terciopelo con patas metálicas.",
+    "dims": "46 × 55 × 88 cm",
+    "tag": "",
+    "price": 59,
+    "oldPrice": null,
+    "colors": [
+      "Gris",
+      "Verde",
+      "Rosa"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p17",
+    "name": "Nevera combi No Frost",
+    "cat": "electro",
+    "sub": "Neveras",
+    "description": "Frigorífico combi con congelador inferior.",
+    "dims": "60 × 65 × 186 cm",
+    "tag": "",
+    "price": 499,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Inox"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p18",
+    "name": "Lavadora carga frontal 8 kg",
+    "cat": "electro",
+    "sub": "Lavadoras",
+    "description": "Lavadora de 8 kg y 1400 rpm.",
+    "dims": "60 × 55 × 85 cm",
+    "tag": "",
+    "price": 379,
+    "oldPrice": null,
+    "colors": [
+      "Blanco"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p19",
+    "name": "Microondas con grill",
+    "cat": "electro",
+    "sub": "Microondas",
+    "description": "Microondas de 20 litros con función grill.",
+    "dims": "45 × 35 × 26 cm",
+    "tag": "",
+    "price": 89,
+    "oldPrice": null,
+    "colors": [
+      "Blanco",
+      "Negro"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "p20",
+    "name": "Cocina de gas con horno",
+    "cat": "electro",
+    "sub": "Cocinas",
+    "description": "Cocina de 4 fuegos con horno.",
+    "dims": "50 × 60 × 85 cm",
+    "tag": "",
+    "price": 329,
+    "oldPrice": null,
+    "colors": [
+      "Blanco"
+    ],
+    "images": [],
+    "assembly": false,
+    "assemblyPrice": 0,
+    "featured": false,
+    "inStock": true
+  }
+]

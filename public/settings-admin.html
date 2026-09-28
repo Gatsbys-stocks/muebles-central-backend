@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Ajustes — Muebles Central Admin</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="admin-top">
+    <div class="admin-brand">Muebles Central<small>Panel de administración</small></div>
+    <nav class="admin-nav">
+      <a href="admin.html">Pedidos</a>
+      <a href="products-admin.html">Productos</a>
+      <a href="settings-admin.html" class="active">Ajustes</a>
+    </nav>
+  </header>
+
+  <form class="login" id="loginForm">
+    <input id="adminKey" type="password" placeholder="Contraseña" autocomplete="current-password">
+    <button class="btn" type="submit">Entrar</button>
+  </form>
+  <div id="msg"></div>
+
+  <form id="settingsForm" hidden>
+    <section class="panel">
+      <h2>Datos de la tienda</h2>
+      <div class="grid2">
+        <label class="f"><span>Dirección</span><input id="sAddress"></label>
+        <label class="f"><span>Código postal y ciudad</span><input id="sCity"></label>
+        <label class="f"><span>Teléfono 1</span><input id="sPhone1" inputmode="tel"></label>
+        <label class="f"><span>Teléfono 2</span><input id="sPhone2" inputmode="tel"></label>
+        <label class="f"><span>WhatsApp (con prefijo, sin +)</span><input id="sWhatsapp" inputmode="tel" placeholder="34617635765"></label>
+        <label class="f"><span>Email</span><input id="sEmail" type="email"></label>
+      </div>
+      <label class="f" style="margin-top:12px"><span>Horario</span><textarea id="sHours" placeholder="Lunes a sábado 10:00–14:00 y 17:00–21:00"></textarea></label>
+    </section>
+
+    <section class="panel">
+      <h2>Redes sociales</h2>
+      <div class="grid2">
+        <label class="f"><span>Usuario de TikTok</span><input id="sTiktok" placeholder="muebles_central"></label>
+        <label class="f"><span>Usuario de Instagram</span><input id="sInstagram" placeholder="Déjalo vacío hasta tener la cuenta"></label>
+      </div>
+      <p class="hint">Escribe solo el usuario, sin @. La web enlaza los perfiles automáticamente.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Entrega y pago</h2>
+      <div class="grid2" style="align-items:end">
+        <label class="check"><input type="checkbox" id="sPickup"> Permitir recogida en tienda</label>
+        <label class="check"><input type="checkbox" id="sCash"> Permitir pagar en la entrega</label>
+        <label class="f"><span>Envío gratis a partir de (€) · opcional</span><input id="sFree" type="number" min="0" step="1"></label>
+      </div>
+      <h3 style="font-size:15px;margin:18px 0 8px">Zonas de envío</h3>
+      <p class="hint" style="margin-bottom:10px">Rangos de códigos postales separados por comas, por ejemplo <code>08001-08042</code> o <code>17000-17999, 25000-25999</code>.</p>
+      <div id="zones"></div>
+      <button class="btn secondary small" type="button" id="addZone">+ Añadir zona</button>
+    </section>
+
+    <div class="actions"><button class="btn" type="submit" id="saveBtn">Guardar ajustes</button></div>
+  </form>
+</div>
+<script src="js/common.js"></script>
+<script src="js/settings-admin.js"></script>
+</body>
+</html>

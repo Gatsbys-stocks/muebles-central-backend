@@ -1,0 +1,24 @@
+{
+  "shop": {
+    "name": "Muebles Central",
+    "tagline": "Tu hogar, a tu estilo",
+    "address": "Carrer del Carme 106, bajo · Puerta 2",
+    "city": "08001 Barcelona",
+    "phones": ["617635765", "672303715"],
+    "whatsapp": "34617635765",
+    "email": "",
+    "hours": "",
+    "tiktok": "muebles_central",
+    "instagram": ""
+  },
+  "delivery": {
+    "pickupEnabled": true,
+    "cashOnDelivery": true,
+    "freeShippingFrom": null,
+    "zones": [
+      { "id": "bcn", "label": "Barcelona ciudad", "ranges": [["08001", "08042"]], "price": 25 },
+      { "id": "prov", "label": "Provincia de Barcelona", "ranges": [["08043", "08999"]], "price": 45 },
+      { "id": "cat", "label": "Resto de Cataluña", "ranges": [["17000", "17999"], ["25000", "25999"], ["43000", "43999"]], "price": 80 }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pedidos — Muebles Central Admin</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="admin-top">
+    <div class="admin-brand">Muebles Central<small>Panel de administración</small></div>
+    <nav class="admin-nav">
+      <a href="admin.html" class="active">Pedidos</a>
+      <a href="products-admin.html">Productos</a>
+      <a href="settings-admin.html">Ajustes</a>
+    </nav>
+  </header>
+
+  <form class="login" id="loginForm">
+    <input id="adminKey" type="password" placeholder="Contraseña" autocomplete="current-password">
+    <button class="btn" type="submit">Ver pedidos</button>
+  </form>
+  <div id="msg"></div>
+
+  <div class="stats" id="stats"></div>
+  <div class="list-tools">
+    <input id="search" type="search" placeholder="Buscar por nombre, teléfono o nº de pedido…">
+    <select id="filterStatus">
+      <option value="abiertos">Pendientes de entregar</option>
+      <option value="">Todos</option>
+      <option value="nuevo">Nuevos</option>
+      <option value="confirmado">Confirmados</option>
+      <option value="pagado">Pagados</option>
+      <option value="en_reparto">En reparto</option>
+      <option value="entregado">Entregados</option>
+      <option value="cancelado">Cancelados</option>
+    </select>
+  </div>
+  <div id="orders"></div>
+</div>
+<script src="js/common.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
